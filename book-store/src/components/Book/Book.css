@@ -1,0 +1,45 @@
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 2rem;
+    list-style-type: none;
+    font-family: poppins;
+    
+}
+li{
+    padding: 10px;
+    width: 250px;
+    max-width: 300px;
+    max-height:450px;
+
+}
+.card{
+padding: 1rem;
+width: 100%;
+height: 100%;
+box-shadow: 5px 5px 10px #ccc;
+display: flex;
+flex-direction: column;
+font-size: 12px;
+}
+.card >img{
+    width: 100%;
+    height: 60%;
+
+}
+.card h4{
+    padding: 2px;
+}
+.card article{
+    padding: 4px;
+}
+.card h2{
+    padding: 2px;
+}
+.card h3{
+    padding: 2px;
+}
